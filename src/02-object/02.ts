@@ -8,7 +8,7 @@ type AddressType = {
     city: CityTitle
 }
 
-type StudentType = {
+export type StudentType = {
     id: number
     name: string
     age: number
@@ -22,7 +22,7 @@ type TechnologiesType = {
     title: string
 }
 
-const student: StudentType = {
+export const student: StudentType = {
     id: 1,
     "name": "Dmitry",
     age: 32,
